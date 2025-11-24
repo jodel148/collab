@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        form{
+            background-color: white;
+            width: 500px;
+            height: 600px;
+            position: relative;
+            left: 500px;
+            top: 50px;
+            color: black;
+            padding: 30px;
+            border-color: black;
+            border-style: solid;
+            border-radius: 15px;
+            
+        }
+
+        .username{
+            position: relative;
+            
+
+
+        }
+
+        #name{
+            width: 300px;
+            height: 25px;
+            border-radius: 12px;
+
+        }
+
+        #password{
+            width: 300px;
+            height: 25px;
+            border-radius: 12px;
+        }
+
+        .username_password{
+
+            position: relative;
+            top: 200px;
+            left: 80px;
+            
+        }
+
+        #check{
+            position: relative;
+            top: 72px;
+        }
+
+        #remember{
+            position: relative;
+            top: 72px;
+        }
+
+        #forgot{
+            position: relative;
+            top: 72px;
+            left: 65px;
+
+        }
+
+        #sub{
+
+            position: relative;
+            width: 300px;
+            height: 30px;
+            border-radius: 12px;
+            top: 75px;
+            background-color: black;
+            color: white;
+
+
+        }
+
+        #email{
+            position: relative;
+            width: 300px;
+            height: 30px;
+            border-radius: 12px;
+            top: 85px;
+            background-color: white;
+            color: black;
+            border-color: black;
+            border-style: solid;
+
+        }
+        p{
+            color: black;
+            position: relative;
+            top: 170px;
+            left: 50px;
+            
+        }
+
+        
+
+        .lab{
+            position: relative;
+            
+
+        }
+
+
+    
+
+
+    
+    </style>
+</head>
+<body>
+    <form action="index.php" method="post"> 
+        
+        <div class="username_password">
+            <div class="username">
+                <label id="lab" for="name">Usename: </label><br>
+                
+                <input  id="name" type="text" title="name"><br>
+            </div>
+            <input id="check" type="checkbox" >
+            <label id="remember" for="check">Remember me</label>
+            <label id="forgot">Forgot password?</label>
+
+            <br>
+
+            <div class pass>
+                <label for="password">Password: </label><br>
+                
+                <input id="password" type="text">
+            </div>
+            <input id="sub" type="submit" value="submit">
+            <input id="email" type="submit" value="Sig in with google account">
+            <p>Don't have an account? Sign up</p>
+        </div>
+    
+    </form>
+</body>
+</html>
